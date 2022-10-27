@@ -1,0 +1,59 @@
+.home-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 20px;
+}
+.home-body{
+    width: 45%;    
+}
+.sign-title{
+    color: rgb(7, 172, 130);
+    text-align: center;
+    margin: 15px 0px;
+}
+.submit-btn{
+    display: block;
+    border: 1px solid rgba(5, 206, 162, 0.966);
+    background: rgb(34,195,128);
+    background: linear-gradient(0deg, rgba(34,195,128,1) 0%, rgba(25,208,102,0.9444152661064426) 100%);
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 18px;
+
+}
+.input-body{
+    height: 45px;
+    border-radius: 20px;
+}
+.under-or{
+    width: 45%;
+    border-bottom: 2px solid silver;
+    margin: 10px;
+
+}
+.login-container{
+    height: 50px;
+    border: 1px solid silver;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.login-container img{
+    width: 50px;
+    height: 40px;
+    margin-right: 15px;
+}
+.login-container p{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+@media screen  and (max-width:768px){
+    .home-body{
+        width: 90%;
+    }
+}
